@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	background: linear-gradient(to bottom , rgb(238, 122, 122), rgb(83, 197, 235), rgb(231, 193, 122));
+}
+nav {
+	width: 300px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
+}
+nav ul{
+	position: relative;
+	list-style-type: none;
+}
+nav ul li a {
+	display: flex;
+	align-items: center;
+	font-family: serif;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	color:#000;
+	padding: 10px 30px;
+	height: 50px;
+	border-radius: 0 50px ;
+	transition: 0.5s ease;
+}
+nav ul li a:hover{
+	background: rgba(0, 0, 0, 0.7);
+	color:#fff;
+}
+nav ul ul {
+	position: absolute;
+	left: 300px;
+	width: 250px;
+	top: 0;
+	display: none; 
+	background: rgba(223, 111, 224, 0.2);
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+ nav ul span {
+	position: absolute;
+	right: 30px;
+	font-size: 40px;
+}
+nav ul .wrapper {
+	position: relative;
+
+}
+nav ul .wrapper:hover > ul {
+	display: initial;
+	
+}
+nav ul .wrap ul {
+	position: absolute;
+	left: 250px;
+	top:100px;
+
+}
+nav ul .wrap:hover ul {
+	display: initial;
+}
+nav ul .wrapper {
+	position: relative;
+
+}
+nav ul .wrapper:hover > ul {
+	display: initial;
+	
+}
+nav ul .wrap2 ul {
+	position: absolute;
+	left: 250px;
+	top:500px;
+
+}
+nav ul .wrap:hover ul {
+	display: initial;
+}
